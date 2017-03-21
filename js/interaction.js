@@ -112,7 +112,7 @@ $(document).ready(function() {
                 //clear the timer if 100% percent
                 clearInterval(timer);
                 setTimeout(function () {
-                    //window.location.href='result.html';
+                    window.location.href='result.html';
                 },1000);
             }
 
