@@ -54,7 +54,7 @@ $(document).ready(function() {
         function ButtonUpAnimation(){
             var tl = new TimelineMax();
 
-            tl.to(buttonUp,.7, {morphSVG:buttonUp,ease: Elastic.easeOut.config(1.5, 0.2)})
+            tl.to(buttonUp,1, {morphSVG:buttonUp,ease: Elastic.easeOut.config(1.5, 0.2)})
             ;
 
             return tl ;

@@ -83,16 +83,16 @@ svg{
    ========================================================================== */
 .main-container{
     background-color: #fff;
-    border-radius: 40px;
-    width: calc(100% - 100px);
-    height:  calc(100vh - 100px);
-    margin: 50px auto;
+    border-radius: 30px;
+    width: calc(100% - 70px);
+    height:  calc(100vh - 70px);
+    margin: 30px auto;
     min-width: 800px;
     max-width: 1200px;
-    min-height: 600px;
+    min-height: 530px;
     max-height: 900px;
     box-shadow: 0 70px 60px -50px rgba(0,0,0,.6), 0 0 40px rgba(0,0,0,.1);
-    padding: 40px;
+    padding: 30px;
     overflow: hidden;
 }
 .content-wrapper{
@@ -113,7 +113,7 @@ svg{
 }
 h1{
     font-weight: normal;
-    font-size: 3rem;
+    font-size: 2.75rem;
     margin: 0;
 }
 h1 strong{
@@ -163,7 +163,7 @@ h1 strong{
     outline: none;
     display: table;
     background-color: transparent;
-    max-width: 270px;
+    max-width: 250px;
 }
 .btn:hover{
     opacity: .9;
@@ -178,15 +178,15 @@ h1 strong{
     margin: auto;
     z-index: 10;
     height: 30px;
-    font-size: 1.5rem;
+    font-size: 1.35rem;
 }
 
 .percentage{
-    width: 250px;
+    width: 230px;
     margin: 20px auto;
 }
 .percentage.shrink{
-    width: 210px;
+    width: 200px;
 }
 .percentage.shrink > span{
     opacity: 0;

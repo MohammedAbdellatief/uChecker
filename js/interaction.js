@@ -59,7 +59,7 @@ $(document).ready(function() {
             if(progress.length !== 0){
                 updateProgress();
             }
-        }, 300);
+        }, 350);
 
         function updateFeedback(){
             if(currentTestIndex < test.length-1){
