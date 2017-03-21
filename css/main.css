@@ -1,5 +1,4 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
-
 html {
     color: #333;
     font-size: 1em;
@@ -186,7 +185,7 @@ h1 strong{
     margin: 20px auto;
 }
 .percentage.shrink{
-    width: 200px;
+    width: 190px;
 }
 .percentage.shrink > span{
     opacity: 0;
@@ -266,10 +265,10 @@ h1 strong{
     height: 85px;
 }
 .bottom_drawer_container.open{
-    height: 120px;
+    height: 130px;
 }
 .open .bottom_drawer{
-    height: 120px;
+    height: 130px;
 }
 .drawer_inner{
     padding-top:40px;
