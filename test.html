@@ -39,8 +39,8 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.5 40.5">
                             <circle fill="none" stroke="#ccc" stroke-width="1" cx="20.2" cy="20.3" r="17.8" stroke-dasharray=".22" ></circle>
                             <circle class="transition" id="circle" opacity=".20" fill="none" stroke="#ff7900" stroke-width="1" stroke-linecap="round" cx="20.2" cy="20.3" r="15.9"></circle>
-                            <path id="progress" class="transition slow" stroke-dasharray="100" stroke-dashoffset="140" fill="none" stroke="#ff7900" stroke-width="1" stroke-linecap="round" d="M4.3,20.3 c0.1,8.8,7.2,15.8,15.9,15.8c8.8,0,15.9-7.1,15.9-15.9S29,4.3,20.2,4.3S4.3,11.5,4.3,20.3"></path>
-                            <text transform="translate(15 22)" fill="#333" font-size="5" font-weight="bold">40%</text>
+                            <path id="progress" class="transition slow" stroke-dasharray="100" stroke-dashoffset="100" fill="none" stroke="#ff7900" stroke-width="1" stroke-linecap="round" d="M4.3,20.3 c0.1,8.8,7.2,15.8,15.9,15.8c8.8,0,15.9-7.1,15.9-15.9S29,4.3,20.2,4.3S4.3,11.5,4.3,20.3"></path>
+                            <text text-anchor="middle" id="progresstext" transform="translate(21 22)" fill="#333" font-size="5" font-weight="bold">0%</text>
                         </svg>
                         <span class="transition">Test is in progress...</span>
                     </div>
@@ -51,17 +51,21 @@
                             <button class="more_btn transition">More Details</button>
                             <div class="morph_shape">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 962.1 99" preserveAspectRatio="none">
-                                    <path id="line" fill="none" stroke="#eee" stroke-width="3" d="M1.5 49.5h959.1" stroke-linecap="round"/>
+                                    <path id="line" fill="none" stroke="#eee" stroke-width="4" d="M1.5 49.5h959.1" stroke-linecap="round"/>
                                     <path id="line1" fill="none" d="M1.5 49.5C321.2 3 640.9 3 960.6 49.5"/>
                                     <path id="line2" fill="none" d="M1.5 49.5C321.2 97 640.9 97 960.6 49.5"/>
                                 </svg>
                             </div>
                             <div class="drawer_inner transition">
-                                <div class="flex">
-                                    <div class="col col col--6">
-                                        <h3><strong>currently Testing your network</strong><span>To know your machine’s ability of making VOIP calls </span></h3>
+                                <div class="flex no_padding">
+                                    <div class="col col col--7">
+                                        <h3 class="small_icon"><strong>current test name here</strong><span> Short description of the test here. </span></h3>
                                     </div>
-                                    <div class="col col col--6"></div>
+                                    <div class="col col col--5">
+                                        <div class="pupple">
+                                            <div class="pupple_content"><p class="transition">Do you know that bla bla bla...</p></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -77,5 +81,6 @@
         <script src="js/vendor/TweenMax.min.js"></script>
         <script src="js/vendor/MorphSVGPlugin.min.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/interaction.js"></script>
     </body>
 </html>
