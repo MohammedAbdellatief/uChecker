@@ -355,7 +355,7 @@ h1 strong{
     padding-bottom: 5px;
 }
 .pupple_content{
-    max-height: 95px;
+    max-height: 85px;
     min-height: 60px;
     padding: 3px 20px;
     overflow-y: auto;
@@ -363,6 +363,9 @@ h1 strong{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
     background-color: #f7f7f7;
     border-radius: 10px;
 }
